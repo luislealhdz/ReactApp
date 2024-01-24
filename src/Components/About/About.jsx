@@ -1,6 +1,8 @@
+import "./About.css";
+
 const About = () => {
     return (
-        <section>
+        <section className="d-flex gap-3">
             <article>
                 <div>
                     <img
@@ -15,22 +17,28 @@ const About = () => {
                     <b>A passionate frontend developer from México</b>
                 </p>
                 <ul>
-                    <li>Lorem ipsum dolor sit.</li>
-                    <li>Lorem ipsum dolor sit.</li>
-                    <li>Lorem ipsum dolor sit.</li>
+                    <li>
+                        🚀 I’m currently working on a e-commerce with Angular
+                        and Firebase
+                    </li>
+                    <li>🧪 I’m currently learning React</li>
                 </ul>
-                <p>
-                    <b>Connect with me</b>
-                </p>
-                <p>Linkedin</p>
-                <p>Github</p>
-                <p>Gmail</p>
+                <p className="font-bold">Connect with me</p>
+                <p>Linkedin: www.linkedin.com/in/luis-leal-hdz</p>
+                <p>Github: https://github.com/luislealhdz</p>
+                <p>Gmail: luisngleal@gmail.com</p>
 
                 <section>
-                    <p>Languages and Tools</p>
-                    <ul>
+                    <p className="font-bold">Languages and Tools</p>
+                    <ul className="list-grid">
                         <li>HTML</li>
                         <li>CSS</li>
+                        <li>SCSS</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>SCRUM</li>
+                        <li>Figma</li>
+                        <li>Git</li>
                     </ul>
                 </section>
             </aside>
